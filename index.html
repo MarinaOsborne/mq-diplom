@@ -56,9 +56,11 @@
     <div class="article_name">Athlets</div>
     <div class="athlets_img-container">
       <picture>
-        <source media="(min-width: 641px)"
+        <source media="(min-width: 641px) and (max-width: 1700px)"
         srcset="images/footballer_497.png">
-        <img src="images\footballer_192.png" alt="Footballer">
+        <source media="(min-width: 1700px)"
+        srcset="images/footballer_566.png">
+        <img src="images/footballer_192.png" alt="Footballer">
       </picture>  
     </div>
     <div class="text_container">
@@ -68,10 +70,10 @@
       <p class="describtion">Connect with coaches directly, you can ping coaches to view profile.</p> 
     </div>
     <div class="text_container collaboration">
-        <div class="number_title">  
-          <h2 class="title"><span class="number">02</span>Collaboration</h2>   
-      </div>
-      <p class="describtion">Work with other student athletes to increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface.</p>
+      <div class="number_title">  
+        <h2 class="title"><span class="number">02</span>Collaboration</h2>   
+        </div>
+       <p class="describtion">Work with other student athletes to increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface.</p>
     </div>  
     <div class="text_container growth">
       <div class="number_title">
@@ -79,48 +81,48 @@
       </div>
       <p class="describtion growth_color">Resources and tools for you to get better as a student Athelte. Access to training classes, tutor sessions, etc</p>
     </div> 
-
-  
+  </div> 
 </article>
 <article class="article">
   <div class="article_name article_name_players">Players</div>
-    <div class="players_img-container players_img_players">
+    <div class="players_img-container">
       <picture>
-        <source media="(min-width: 641px)"
+        <source media="(min-width: 641px) and (max-width: 960px)"
         srcset="images/basketballer_436.png">
-        <img src="images\basketballer_302.png" alt="Players">
+        <source media="(min-width: 961px)"
+        srcset="images/basketballer_991.png">
+        <img src="images/basketballer_302.png" alt="Players">
       </picture> 
     </div>
     <div class="text_container text_container_players">
-      <div class="number_title">
-        <div class="number">01</div>
-        <h3 class="title">Connection</h2>   
+      <div class="number_title">  
+        <h2 class="title"><span class="number">01</span>Connection</h2>   
       </div>
       <p class="describtion describtion_players">Connect with talented athlete directly, you can watch their skills through video showreels directly from Surface 1.</p> 
     </div>
     <div class="text_container text_container_players collaboration">
-      <div class="number_title">
-        <div class="number">02</div>
-        <h3 class="title">Collaboration</h2>   
+      <div class="number_title">  
+        <h2 class="title"><span class="number">02</span>Collaboration</h2>   
       </div>
       <p class="describtion describtion_players">Work with recruiter to increase your chances of findingtalented athlete.</p>
     </div>  
     <div class="text_container text_container_players growth_dark">
-      <div class="number_title">
-        <div class="number_growth growth_dark_color">03</div>
-        <h3 class="title">growth</h2>   
+      <div class="number_title">  
+        <h2 class="title"><span class="number number_growth">03</span>Growth</h2>   
       </div>
       <p class="describtion describtion_players growth_color">Save your time, recruit proper athlets for your team.</p>
     </div>  
 </article>
-<section class="tips">
+<div class="tips">
   <article class="article_tips">
     <div class="tips_img_box">
       <picture>
         <source
-        media="(min-width: 641px)"
-        srcset="images\be-active_960.jpg">
-        <img src="images\be-active_640.jpg" class="tips_img" alt="Be active">
+        media="(min-width: 641px) and (max-width: 960px)"
+        srcset="images/be-active_960.jpg">
+        <source media="(min-width: 961px)"
+        srcset="images/be-active_1024.jpg">
+        <img src="images/be-active_640.jpg" class="tips_img" alt="Be active">
         </picture>
         
       <div class="square">
@@ -133,32 +135,37 @@
       </div>  
     </div> 
   </article>
-  <article class="article_tips">
-    <div class="tips_img_box">
+  <article class="article_tips">  
+    <div class="tips_img_box find_contact_img">
       <picture>
         <source
-        media="(min-width: 641px)"
-        srcset="images\find-contact_960.jpg">
-        <img src="images\find-contact_640.jpg" class="tips_img" alt="Be active">
+        media="(min-width: 641px) and (max-width: 960px)"
+        srcset="images/find-contact_960.jpg">
+        <source media="(min-width: 961px)"
+        srcset="images\find-contact_1024.jpg">
+        <img src="images/find-contact_640.jpg" class="tips_img" alt="Find contact">
         </picture>
-      <div class="square">
+      <div class="square find_contact_square">
         <div class="square_number">02</div>
       </div>
     </div>
-    <div class="tips_text">
+    <div class="tips_text find_contact_text">
       <h2 class="tips_title">Find contact</h2>
       <div class="tips_description"><p>Contact others to find right coach or athlete you are looking for.</p>
       </div>  
     </div> 
+ 
   </article>
   <article class="article_tips">
     <div class="tips_img_box">
       <picture>
-        <source
-        media="(min-width: 768px)"
-        srcset="images\work-it_960.jpg">
-        <img src="images\work-it_640.jpg" class="tips_img" alt="Be active">
+        <source media="(min-width: 768px) and (max-width: 960px)"
+        srcset="images/work-it_960.jpg">
+        <source media="(min-width: 961px)"
+        srcset="images/work-it_1024.jpg">
+        <img src="images/work-it_640.jpg" class="tips_img" alt="Work it">
         </picture>
+        
       <div class="square">
         <div class="square_number">03</div>
       </div>
@@ -168,10 +175,10 @@
       <div class="tips_description"><p>Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience.</p>
       </div>  
     </div> 
-  </article>
-</section> 
+</div> 
 </main>
 <footer class="footer">
+ <div class="footer_logo_text">
   <div class="footer_logo_box">
     <div class="footer_logo">
       <svg viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg">
@@ -188,6 +195,7 @@
     <div class="footer_text"><p>Show everyone what you can do!</p>
     </div>
   </div>
+ </div>
   <div class="buttons">
     <div class="app_btn_container"> <a href="#">
       <div class="app_btn">
@@ -229,6 +237,5 @@
     </svg></a>
   </div>  
 </footer>
-
 </body>
 </html>
