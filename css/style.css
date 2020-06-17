@@ -335,12 +335,9 @@
     padding-bottom: 6%;
 }
 .article {
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
 }
 .article_name {
-    order: 1;
     padding-left: 38%;
     margin-bottom: 6%;
     font-size: 80px;
@@ -348,7 +345,6 @@
 .text_container {
     display: block;
     width: 100%;
-    order: 2;
 }
 .athlets_img-container {
     position: absolute;
@@ -378,11 +374,9 @@
     order: 3;
 }
 .text_container_players {
-    order: 2;
     padding-left: 6%;
 }
 .article_name_players {
-    order: 1;
     padding-left: 6%;
    
 }
@@ -470,12 +464,9 @@
 }
 .article {
     padding-top: 1%;
-    display: flex;
-    flex-wrap: wrap;
     position: relative;
 }
-.article_name {
-    order: 1;               
+.article_name {             
     padding-left: 54.5%;
     margin-bottom: 4%;
     margin-top: 3%;
@@ -484,13 +475,13 @@
 .text_container {
     padding-left: 54.5%;
     padding-bottom: 3%;
-    order: 2;
 }
 .athlets_img-container {
     position: absolute;
     margin-top: 0;
     margin-left: 0;
     right: 50%;
+    top: 3%;
 
 }
 .text_container:nth-child(n+4) {
@@ -524,14 +515,14 @@
 .players_img-container {
     position: absolute;
     margin-left: 42%;
-    margin-top: 0.5%;
+    top: 3%;
+    margin-top: 0;
     order: 2;
 }
 .article_name_players {
     padding-left: 10%;
 }
 .text_container_players {
-    order: 1;
     padding-left: 10%;
     width: 100%;
 }
